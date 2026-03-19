@@ -1,0 +1,9 @@
+group,n,readmitted,rate_pct,ci_low_pct,ci_high_pct
+Heart Failure,1093,445,40.71,37.84,43.65
+COPD,867,329,37.95,34.78,41.22
+Pneumonia,815,285,34.97,31.77,38.31
+Sepsis,492,172,34.96,30.88,39.27
+Diabetes,598,196,32.78,29.13,36.64
+Stroke,485,143,29.48,25.6,33.69
+AMI,258,69,26.74,21.71,32.46
+Hip/Knee Replacement,392,83,21.17,17.42,25.49

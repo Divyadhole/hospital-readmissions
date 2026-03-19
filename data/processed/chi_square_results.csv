@@ -1,0 +1,6 @@
+variable,chi2,p_value,dof,cramers_v,significant,effect_size
+condition,67.267,0.0,7,0.116,True,small
+insurance,52.743,0.0,3,0.1027,True,small
+discharge_to,72.196,0.0,3,0.1202,True,small
+hospital_quality,120.152,0.0,2,0.155,True,small
+age_group,44.547,0.0,3,0.0944,True,negligible

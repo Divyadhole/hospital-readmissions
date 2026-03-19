@@ -1,0 +1,1 @@
+{"total_patients":5000,"readmission_rate":34.44,"avg_los":6.7,"cv_auc":0.6141,"cv_auc_std":0.0197,"auc":0.6198,"avg_precision":0.4442,"top_condition":"Heart Failure","top_condition_rate":40.71,"top_insurer_risk":"Uninsured","top_insurer_rate":47.96,"top_discharge_risk":"AMA","high_critical_pct":98.0,"los_p_value":0.396018,"los_cohens_d":0.0255}

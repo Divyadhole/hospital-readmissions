@@ -1,0 +1,5 @@
+group,n,readmitted,rate_pct,ci_low_pct,ci_high_pct
+Uninsured,196,94,47.96,41.07,54.93
+Medicaid,1084,439,40.5,37.61,43.45
+Medicare,2336,789,33.78,31.89,35.72
+Private,1384,400,28.9,26.57,31.35
