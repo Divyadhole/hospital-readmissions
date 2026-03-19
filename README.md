@@ -178,4 +178,4 @@ The `sql/readmissions_queries.sql` file demonstrates:
 
 ---
 
-*Part of a Healthcare Data Analyst Portfolio — built end-to-end in Python.*
+
