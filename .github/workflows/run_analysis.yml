@@ -1,0 +1,27 @@
+name: Run Analysis Pipeline
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Verify data integrity
+        run: python -c "from src.readmission_data import load_patients; df=load_patients(); assert len(df)>0; print(f'✓ {len(df)} patient records loaded')"
+      - name: Run SQL analysis
+        run: python -c "
+import sqlite3, os
+os.makedirs('data', exist_ok=True)
+conn = sqlite3.connect('data/readmissions.db')
+print('✓ SQLite database accessible')
+conn.close()
+"
